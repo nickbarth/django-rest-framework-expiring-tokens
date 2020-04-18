@@ -34,9 +34,7 @@ setup(
     author_email='james.a.ritchie@gmail.com',
     license='BSD',
     packages=find_packages(exclude=['tests*']),
-    install_requires=[
-        'djangorestframework>=3.2.3,<=3.6.3'
-    ],
+    install_requires=[],
     test_suite='runtests.run',
     tests_require=[
         'Django>=1.8.14,<=1.10.1'
@@ -59,3 +57,4 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
     ]
 )
+                    
