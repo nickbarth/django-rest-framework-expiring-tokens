@@ -24,7 +24,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='djangorestframework-expiring-authtoken',
+    name='djangorestframework-expiring-authtoken--nodeps',
     version=version,
     description='Expiring Authentication Tokens for Django REST Framework',
     url=(
